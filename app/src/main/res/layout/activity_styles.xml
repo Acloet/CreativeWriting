@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_styles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.acloetlive.creativewriting.Styles">
+
+    <Button
+        android:text="Science Fiction"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FantasyButton"
+        android:layout_alignStart="@+id/FantasyButton"
+        android:id="@+id/SciFiButton" />
+
+    <Button
+        android:text="Poetry"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SciFiButton"
+        android:layout_alignStart="@+id/SciFiButton"
+        android:id="@+id/PoetryButton" />
+
+    <Button
+        android:text="< Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button16" />
+
+    <Button
+        android:text="Fantasy"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/FantasyButton"
+        android:layout_below="@+id/button16"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp" />
+
+    <Button
+        android:text="Fiction"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/FictionButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Manga"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FictionButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/MangaButton" />
+
+    <Button
+        android:text="Video Games"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MangaButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/VGButton" />
+
+    <Button
+        android:text="Mystery"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VGButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/MysteryButton" />
+
+    <Button
+        android:text="Horror"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/MysteryButton"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/HorrorButton"
+        android:onClick="onClick"/>
+</RelativeLayout>

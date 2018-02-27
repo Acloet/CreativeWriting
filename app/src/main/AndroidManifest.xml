@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.acloetlive.creativewriting">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".Encouragement" />
+        <activity android:name=".Notes" />
+        <activity android:name=".howto2" />
+        <activity android:name=".Styles" />
+        <activity android:name=".Plot" />
+        <activity android:name=".setting" />
+        <activity android:name=".Character" />
+        <activity android:name=".Fantasy" />
+        <activity android:name=".scifi" />
+        <activity android:name=".Poetry" />
+        <activity android:name=".fiction" />
+        <activity android:name=".manga" />
+        <activity android:name=".videogames" />
+        <activity android:name=".mystery" />
+        <activity android:name=".Horror"></activity>
+    </application>
+
+</manifest>
